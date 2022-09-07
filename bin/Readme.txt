@@ -1,0 +1,1 @@
+Copy the contents of this folder to the runtime folder to run the game

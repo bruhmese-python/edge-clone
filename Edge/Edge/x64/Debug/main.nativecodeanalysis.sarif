@@ -1,0 +1,4082 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/vector3d.h"
+                },
+                "region": {
+                  "startLine": 428,
+                  "startColumn": 22,
+                  "endLine": 428,
+                  "endColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::core::vector3d<int>::getSphericalCoordinateAngles",
+                  "decoratedName": "?getSphericalCoordinateAngles@?$vector3d@H@core@irr@@QEBA?AV123@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/vector3d.h"
+                },
+                "region": {
+                  "startLine": 428,
+                  "startColumn": 22,
+                  "endLine": 428,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::core::vector3d<int>::getSphericalCoordinateAngles",
+                  "decoratedName": "?getSphericalCoordinateAngles@?$vector3d@H@core@irr@@QEBA?AV123@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/vector3d.h"
+                },
+                "region": {
+                  "startLine": 428,
+                  "startColumn": 22,
+                  "endLine": 428,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::core::vector3d<int>::getSphericalCoordinateAngles",
+                  "decoratedName": "?getSphericalCoordinateAngles@?$vector3d@H@core@irr@@QEBA?AV123@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'irr::video::SColor::color' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/SColor.h"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 3,
+                  "endLine": 207,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::video::SColor::{ctor}",
+                  "decoratedName": "??0SColor@video@irr@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "irr::video::SColor::color"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::video::ECOLOR_FORMAT' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/SColor.h"
+                },
+                "region": {
+                  "startLine": 378,
+                  "startColumn": 8,
+                  "endLine": 378,
+                  "endColumn": 8
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::video::SColor::setData",
+                  "decoratedName": "?setData@SColor@video@irr@@QEAAXPEBXW4ECOLOR_FORMAT@23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::core::eLocaleID' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/irrString.h"
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 35,
+                  "endLine": 38,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::core::locale_current",
+                  "decoratedName": "?locale_current@core@irr@@3W4eLocaleID@12@A",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::video::E_BLEND_FACTOR' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/SMaterial.h"
+                },
+                "region": {
+                  "startLine": 116,
+                  "startColumn": 13,
+                  "endLine": 116,
+                  "endColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::video::pack_textureBlendFunc",
+                  "decoratedName": "?pack_textureBlendFunc@video@irr@@YAMW4E_BLEND_FACTOR@12@0W4E_MODULATE_FUNC@12@I@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::video::E_MODULATE_FUNC' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/SMaterial.h"
+                },
+                "region": {
+                  "startLine": 116,
+                  "startColumn": 13,
+                  "endLine": 116,
+                  "endColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::video::pack_textureBlendFunc",
+                  "decoratedName": "?pack_textureBlendFunc@video@irr@@YAMW4E_BLEND_FACTOR@12@0W4E_MODULATE_FUNC@12@I@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::video::E_MATERIAL_TYPE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/SMaterial.h"
+                },
+                "region": {
+                  "startLine": 231,
+                  "startColumn": 17,
+                  "endLine": 231,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::video::SMaterial::{ctor}",
+                  "decoratedName": "??0SMaterial@video@irr@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::video::E_BLEND_OPERATION' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/SMaterial.h"
+                },
+                "region": {
+                  "startLine": 235,
+                  "startColumn": 46,
+                  "endLine": 235,
+                  "endColumn": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::video::SMaterial::{ctor}",
+                  "decoratedName": "??0SMaterial@video@irr@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::video::E_POLYGON_OFFSET' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/SMaterial.h"
+                },
+                "region": {
+                  "startLine": 236,
+                  "startColumn": 50,
+                  "endLine": 236,
+                  "endColumn": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::video::SMaterial::{ctor}",
+                  "decoratedName": "??0SMaterial@video@irr@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::video::E_MATERIAL_FLAG' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/SMaterial.h"
+                },
+                "region": {
+                  "startLine": 492,
+                  "startColumn": 8,
+                  "endLine": 492,
+                  "endColumn": 8
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::video::SMaterial::setFlag",
+                  "decoratedName": "?setFlag@SMaterial@video@irr@@QEAAXW4E_MATERIAL_FLAG@23@_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::video::E_COLOR_MATERIAL' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/SMaterial.h"
+                },
+                "region": {
+                  "startLine": 552,
+                  "startColumn": 22,
+                  "endLine": 552,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::video::SMaterial::setFlag",
+                  "decoratedName": "?setFlag@SMaterial@video@irr@@QEAAXW4E_MATERIAL_FLAG@23@_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::video::E_COLOR_PLANE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/SMaterial.h"
+                },
+                "region": {
+                  "startLine": 550,
+                  "startColumn": 18,
+                  "endLine": 550,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::video::SMaterial::setFlag",
+                  "decoratedName": "?setFlag@SMaterial@video@irr@@QEAAXW4E_MATERIAL_FLAG@23@_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::video::E_ANTI_ALIASING_MODE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/SMaterial.h"
+                },
+                "region": {
+                  "startLine": 548,
+                  "startColumn": 21,
+                  "endLine": 548,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::video::SMaterial::setFlag",
+                  "decoratedName": "?setFlag@SMaterial@video@irr@@QEAAXW4E_MATERIAL_FLAG@23@_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::video::E_VERTEX_TYPE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/S3DVertex.h"
+                },
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 3,
+                  "endLine": 90,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::video::S3DVertex::getType",
+                  "decoratedName": "?getType@S3DVertex@video@irr@@QEBA?AW4E_VERTEX_TYPE@23@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::scene::E_HARDWARE_MAPPING' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/IDynamicMeshBuffer.h"
+                },
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 11,
+                  "endLine": 71,
+                  "endColumn": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::scene::IDynamicMeshBuffer::getHardwareMappingHint_Vertex",
+                  "decoratedName": "?getHardwareMappingHint_Vertex@IDynamicMeshBuffer@scene@irr@@UEBA?AW4E_HARDWARE_MAPPING@23@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::scene::E_BUFFER_TYPE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/IDynamicMeshBuffer.h"
+                },
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 16,
+                  "endLine": 81,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::scene::IDynamicMeshBuffer::setHardwareMappingHint",
+                  "decoratedName": "?setHardwareMappingHint@IDynamicMeshBuffer@scene@irr@@UEAAXW4E_HARDWARE_MAPPING@23@W4E_BUFFER_TYPE@23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::video::E_INDEX_TYPE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/IDynamicMeshBuffer.h"
+                },
+                "region": {
+                  "startLine": 144,
+                  "startColumn": 11,
+                  "endLine": 144,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::scene::IDynamicMeshBuffer::getIndexType",
+                  "decoratedName": "?getIndexType@IDynamicMeshBuffer@scene@irr@@UEBA?AW4E_INDEX_TYPE@video@3@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::scene::E_ANIMATED_MESH_TYPE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/IAnimatedMesh.h"
+                },
+                "region": {
+                  "startLine": 107,
+                  "startColumn": 4,
+                  "endLine": 107,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::scene::IAnimatedMesh::getMeshType",
+                  "decoratedName": "?getMeshType@IAnimatedMesh@scene@irr@@UEBA?AW4E_ANIMATED_MESH_TYPE@23@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::io::E_FILE_ARCHIVE_TYPE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/IFileArchive.h"
+                },
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 48,
+                  "endLine": 76,
+                  "endColumn": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::io::IFileArchive::getType",
+                  "decoratedName": "?getType@IFileArchive@io@irr@@UEBA?AW4E_FILE_ARCHIVE_TYPE@23@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::video::E_TEXTURE_CREATION_FLAG' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/ITexture.h"
+                },
+                "region": {
+                  "startLine": 201,
+                  "startColumn": 4,
+                  "endLine": 201,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::video::ITexture::getTextureFormatFromFlags",
+                  "decoratedName": "?getTextureFormatFromFlags@ITexture@video@irr@@IEAA?AW4E_TEXTURE_CREATION_FLAG@23@I@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::video::E_RENDER_TARGET' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/IVideoDriver.h"
+                },
+                "region": {
+                  "startLine": 219,
+                  "startColumn": 14,
+                  "endLine": 219,
+                  "endColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::video::IRenderTarget::{ctor}",
+                  "decoratedName": "??0IRenderTarget@video@irr@@QEAA@PEAVITexture@12@W4E_COLOR_PLANE@12@W4E_BLEND_FACTOR@12@2W4E_BLEND_OPERATION@12@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::scene::quake3::eQ3ModifierFunction' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/IQ3Shader.h"
+                },
+                "region": {
+                  "startLine": 423,
+                  "startColumn": 18,
+                  "endLine": 423,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::scene::quake3::SModifierFunction::{ctor}",
+                  "decoratedName": "??0SModifierFunction@quake3@scene@irr@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/quaternion.h"
+                },
+                "region": {
+                  "startLine": 598,
+                  "startColumn": 18,
+                  "endLine": 598,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::core::quaternion::toEuler",
+                  "decoratedName": "?toEuler@quaternion@core@irr@@QEBAXAEAV?$vector3d@M@23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/quaternion.h"
+                },
+                "region": {
+                  "startLine": 599,
+                  "startColumn": 18,
+                  "endLine": 599,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::core::quaternion::toEuler",
+                  "decoratedName": "?toEuler@quaternion@core@irr@@QEBAXAEAV?$vector3d@M@23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/quaternion.h"
+                },
+                "region": {
+                  "startLine": 600,
+                  "startColumn": 18,
+                  "endLine": 600,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::core::quaternion::toEuler",
+                  "decoratedName": "?toEuler@quaternion@core@irr@@QEBAXAEAV?$vector3d@M@23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/quaternion.h"
+                },
+                "region": {
+                  "startLine": 601,
+                  "startColumn": 18,
+                  "endLine": 601,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::core::quaternion::toEuler",
+                  "decoratedName": "?toEuler@quaternion@core@irr@@QEBAXAEAV?$vector3d@M@23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/quaternion.h"
+                },
+                "region": {
+                  "startLine": 602,
+                  "startColumn": 26,
+                  "endLine": 602,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::core::quaternion::toEuler",
+                  "decoratedName": "?toEuler@quaternion@core@irr@@QEBAXAEAV?$vector3d@M@23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/quaternion.h"
+                },
+                "region": {
+                  "startLine": 602,
+                  "startColumn": 26,
+                  "endLine": 602,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::core::quaternion::toEuler",
+                  "decoratedName": "?toEuler@quaternion@core@irr@@QEBAXAEAV?$vector3d@M@23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/quaternion.h"
+                },
+                "region": {
+                  "startLine": 625,
+                  "startColumn": 32,
+                  "endLine": 625,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::core::quaternion::toEuler",
+                  "decoratedName": "?toEuler@quaternion@core@irr@@QEBAXAEAV?$vector3d@M@23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/quaternion.h"
+                },
+                "region": {
+                  "startLine": 625,
+                  "startColumn": 32,
+                  "endLine": 625,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::core::quaternion::toEuler",
+                  "decoratedName": "?toEuler@quaternion@core@irr@@QEBAXAEAV?$vector3d@M@23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/quaternion.h"
+                },
+                "region": {
+                  "startLine": 627,
+                  "startColumn": 32,
+                  "endLine": 627,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::core::quaternion::toEuler",
+                  "decoratedName": "?toEuler@quaternion@core@irr@@QEBAXAEAV?$vector3d@M@23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/quaternion.h"
+                },
+                "region": {
+                  "startLine": 627,
+                  "startColumn": 32,
+                  "endLine": 627,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::core::quaternion::toEuler",
+                  "decoratedName": "?toEuler@quaternion@core@irr@@QEBAXAEAV?$vector3d@M@23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::scene::ESCENE_NODE_ANIMATOR_TYPE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/ISceneNodeAnimator.h"
+                },
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 4,
+                  "endLine": 61,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::scene::ISceneNodeAnimator::getType",
+                  "decoratedName": "?getType@ISceneNodeAnimator@scene@irr@@UEBA?AW4ESCENE_NODE_ANIMATOR_TYPE@23@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::scene::ESCENE_NODE_TYPE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/ISceneNode.h"
+                },
+                "region": {
+                  "startLine": 676,
+                  "startColumn": 4,
+                  "endLine": 676,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::scene::ISceneNode::getType",
+                  "decoratedName": "?getType@ISceneNode@scene@irr@@UEBA?AW4ESCENE_NODE_TYPE@23@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::gui::ECURSOR_ICON' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/ICursorControl.h"
+                },
+                "region": {
+                  "startLine": 159,
+                  "startColumn": 16,
+                  "endLine": 159,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::gui::ICursorControl::setActiveIcon",
+                  "decoratedName": "?setActiveIcon@ICursorControl@gui@irr@@UEAAXW4ECURSOR_ICON@23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::gui::ECURSOR_PLATFORM_BEHAVIOR' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/ICursorControl.h"
+                },
+                "region": {
+                  "startLine": 179,
+                  "startColumn": 16,
+                  "endLine": 179,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::gui::ICursorControl::setPlatformBehavior",
+                  "decoratedName": "?setPlatformBehavior@ICursorControl@gui@irr@@UEAAXW4ECURSOR_PLATFORM_BEHAVIOR@23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::video::E_VERTEX_SHADER_TYPE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/IGPUProgrammingServices.h"
+                },
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 6,
+                  "endLine": 106,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::video::IGPUProgrammingServices::addHighLevelShaderMaterial",
+                  "decoratedName": "?addHighLevelShaderMaterial@IGPUProgrammingServices@video@irr@@QEAAHPEBD0W4E_VERTEX_SHADER_TYPE@23@00W4E_PIXEL_SHADER_TYPE@23@PEAVIShaderConstantSetCallBack@23@W4E_MATERIAL_TYPE@23@HW4E_GPU_SHADING_LANGUAGE@23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::video::E_PIXEL_SHADER_TYPE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/IGPUProgrammingServices.h"
+                },
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 6,
+                  "endLine": 106,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::video::IGPUProgrammingServices::addHighLevelShaderMaterial",
+                  "decoratedName": "?addHighLevelShaderMaterial@IGPUProgrammingServices@video@irr@@QEAAHPEBD0W4E_VERTEX_SHADER_TYPE@23@00W4E_PIXEL_SHADER_TYPE@23@PEAVIShaderConstantSetCallBack@23@W4E_MATERIAL_TYPE@23@HW4E_GPU_SHADING_LANGUAGE@23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::video::E_GPU_SHADING_LANGUAGE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/IGPUProgrammingServices.h"
+                },
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 6,
+                  "endLine": 106,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::video::IGPUProgrammingServices::addHighLevelShaderMaterial",
+                  "decoratedName": "?addHighLevelShaderMaterial@IGPUProgrammingServices@video@irr@@QEAAHPEBD0W4E_VERTEX_SHADER_TYPE@23@00W4E_PIXEL_SHADER_TYPE@23@PEAVIShaderConstantSetCallBack@23@W4E_MATERIAL_TYPE@23@HW4E_GPU_SHADING_LANGUAGE@23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::scene::E_PRIMITIVE_TYPE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/IGPUProgrammingServices.h"
+                },
+                "region": {
+                  "startLine": 151,
+                  "startColumn": 6,
+                  "endLine": 151,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::video::IGPUProgrammingServices::addHighLevelShaderMaterial",
+                  "decoratedName": "?addHighLevelShaderMaterial@IGPUProgrammingServices@video@irr@@QEAAHPEBD00W4E_PRIMITIVE_TYPE@scene@3@1IPEAVIShaderConstantSetCallBack@23@W4E_MATERIAL_TYPE@23@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::gui::EGUI_ELEMENT_TYPE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/IGUIElement.h"
+                },
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 2,
+                  "endLine": 30,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::gui::IGUIElement::{ctor}",
+                  "decoratedName": "??0IGUIElement@gui@irr@@QEAA@W4EGUI_ELEMENT_TYPE@12@PEAVIGUIEnvironment@12@PEAV012@HAEBV?$rect@H@core@2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::gui::EGUI_ALIGNMENT' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/IGUIElement.h"
+                },
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 12,
+                  "endLine": 36,
+                  "endColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::gui::IGUIElement::{ctor}",
+                  "decoratedName": "??0IGUIElement@gui@irr@@QEAA@W4EGUI_ELEMENT_TYPE@12@PEAVIGUIEnvironment@12@PEAV012@HAEBV?$rect@H@core@2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::gui::EGUI_SKIN_TYPE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/IGUISkin.h"
+                },
+                "region": {
+                  "startLine": 566,
+                  "startColumn": 44,
+                  "endLine": 566,
+                  "endColumn": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::gui::IGUISkin::getType",
+                  "decoratedName": "?getType@IGUISkin@gui@irr@@UEBA?AW4EGUI_SKIN_TYPE@23@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::gui::EGUI_FONT_TYPE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/IGUIFont.h"
+                },
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 43,
+                  "endLine": 68,
+                  "endColumn": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::gui::IGUIFont::getType",
+                  "decoratedName": "?getType@IGUIFont@gui@irr@@UEBA?AW4EGUI_FONT_TYPE@23@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::video::E_LIGHT_TYPE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/SLight.h"
+                },
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 22,
+                  "endLine": 47,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::video::SLight::{ctor}",
+                  "decoratedName": "??0SLight@video@irr@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::scene::E_COLLADA_GEOMETRY_WRITING' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/IColladaMeshWriter.h"
+                },
+                "region": {
+                  "startLine": 209,
+                  "startColumn": 21,
+                  "endLine": 209,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::scene::IColladaMeshWriter::{ctor}",
+                  "decoratedName": "??0IColladaMeshWriter@scene@irr@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::scene::E_PARTICLE_EMITTER_TYPE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/IParticleEmitter.h"
+                },
+                "region": {
+                  "startLine": 119,
+                  "startColumn": 52,
+                  "endLine": 119,
+                  "endColumn": 59
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::scene::IParticleEmitter::getType",
+                  "decoratedName": "?getType@IParticleEmitter@scene@irr@@UEBA?AW4E_PARTICLE_EMITTER_TYPE@23@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::scene::E_PARTICLE_AFFECTOR_TYPE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/IParticleAttractionAffector.h"
+                },
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 53,
+                  "endLine": 51,
+                  "endColumn": 60
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::scene::IParticleAttractionAffector::getType",
+                  "decoratedName": "?getType@IParticleAttractionAffector@scene@irr@@UEBA?AW4E_PARTICLE_AFFECTOR_TYPE@23@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::video::E_DRIVER_TYPE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/IrrlichtDevice.h"
+                },
+                "region": {
+                  "startLine": 277,
+                  "startColumn": 15,
+                  "endLine": 277,
+                  "endColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::IrrlichtDevice::isDriverSupported",
+                  "decoratedName": "?isDriverSupported@IrrlichtDevice@irr@@SA_NW4E_DRIVER_TYPE@video@2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::E_DEVICE_TYPE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/SIrrCreationParameters.h"
+                },
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 14,
+                  "endLine": 23,
+                  "endColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::SIrrlichtCreationParameters::{ctor}",
+                  "decoratedName": "??0SIrrlichtCreationParameters@irr@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::ELOG_LEVEL' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/SIrrCreationParameters.h"
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 16,
+                  "endLine": 41,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::SIrrlichtCreationParameters::{ctor}",
+                  "decoratedName": "??0SIrrlichtCreationParameters@irr@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'irr::SKeyMap::Action' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/SKeyMap.h"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 3,
+                  "endLine": 31,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::SKeyMap::{ctor}",
+                  "decoratedName": "??0SKeyMap@irr@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "irr::SKeyMap::Action"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'irr::SKeyMap::KeyCode' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/SKeyMap.h"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 3,
+                  "endLine": 31,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::SKeyMap::{ctor}",
+                  "decoratedName": "??0SKeyMap@irr@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "irr::SKeyMap::KeyCode"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::EKEY_ACTION' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/SKeyMap.h"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 3,
+                  "endLine": 32,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::SKeyMap::{ctor}",
+                  "decoratedName": "??0SKeyMap@irr@@QEAA@W4EKEY_ACTION@1@W4EKEY_CODE@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::EKEY_CODE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/SKeyMap.h"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 3,
+                  "endLine": 32,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::SKeyMap::{ctor}",
+                  "decoratedName": "??0SKeyMap@irr@@QEAA@W4EKEY_ACTION@1@W4EKEY_CODE@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'irr::scene::SSharedMeshBuffer::MappingHintVertex' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/SSharedMeshBuffer.h"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 3,
+                  "endLine": 27,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::scene::SSharedMeshBuffer::{ctor}",
+                  "decoratedName": "??0SSharedMeshBuffer@scene@irr@@QEAA@PEAV?$array@US3DVertex@video@irr@@V?$irrAllocator@US3DVertex@video@irr@@@core@3@@core@2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "irr::scene::SSharedMeshBuffer::MappingHintVertex"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'irr::scene::SSharedMeshBuffer::MappingHintIndex' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/SSharedMeshBuffer.h"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 3,
+                  "endLine": 27,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::scene::SSharedMeshBuffer::{ctor}",
+                  "decoratedName": "??0SSharedMeshBuffer@scene@irr@@QEAA@PEAV?$array@US3DVertex@video@irr@@V?$irrAllocator@US3DVertex@video@irr@@@core@3@@core@2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "irr::scene::SSharedMeshBuffer::MappingHintIndex"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'irr::scene::SSharedMeshBuffer::ChangedID_Index' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/SSharedMeshBuffer.h"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 3,
+                  "endLine": 27,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::scene::SSharedMeshBuffer::{ctor}",
+                  "decoratedName": "??0SSharedMeshBuffer@scene@irr@@QEAA@PEAV?$array@US3DVertex@video@irr@@V?$irrAllocator@US3DVertex@video@irr@@@core@3@@core@2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "irr::scene::SSharedMeshBuffer::ChangedID_Index"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'irr::scene::SSharedMeshBuffer::ChangedID_Vertex' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/SSharedMeshBuffer.h"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 3,
+                  "endLine": 27,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::scene::SSharedMeshBuffer::{ctor}",
+                  "decoratedName": "??0SSharedMeshBuffer@scene@irr@@QEAA@PEAV?$array@US3DVertex@video@irr@@V?$irrAllocator@US3DVertex@video@irr@@@core@3@@core@2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "irr::scene::SSharedMeshBuffer::ChangedID_Vertex"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::video::E_TRANSFORMATION_STATE' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/SViewFrustum.h"
+                },
+                "region": {
+                  "startLine": 310,
+                  "startColumn": 38,
+                  "endLine": 310,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::scene::SViewFrustum::getTransform",
+                  "decoratedName": "?getTransform@SViewFrustum@scene@irr@@QEAAAEAV?$CMatrix4@M@core@3@W4E_TRANSFORMATION_STATE@video@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/SViewFrustum.h"
+                },
+                "region": {
+                  "startLine": 352,
+                  "startColumn": 7,
+                  "endLine": 352,
+                  "endColumn": 66
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::scene::SViewFrustum::clipLine",
+                  "decoratedName": "?clipLine@SViewFrustum@scene@irr@@QEBA_NAEAV?$line3d@M@core@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/SViewFrustum.h"
+                },
+                "region": {
+                  "startLine": 358,
+                  "startColumn": 7,
+                  "endLine": 358,
+                  "endColumn": 66
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::scene::SViewFrustum::clipLine",
+                  "decoratedName": "?clipLine@SViewFrustum@scene@irr@@QEBA_NAEAV?$line3d@M@core@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::core::EIntersectionRelation3D' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/SViewFrustum.h"
+                },
+                "region": {
+                  "startLine": 349,
+                  "startColumn": 8,
+                  "endLine": 349,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::scene::SViewFrustum::clipLine",
+                  "decoratedName": "?clipLine@SViewFrustum@scene@irr@@QEBA_NAEAV?$line3d@M@core@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'direction' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-projects/edge/Edge/Edge/main.cpp"
+                },
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 55,
+                  "endLine": 49,
+                  "endColumn": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "`dynamic initializer for 'shift_left''",
+                  "decoratedName": "??__Eshift_left@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::core::eAllocStrategy' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/irrArray.h"
+                },
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 12,
+                  "endLine": 30,
+                  "endColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::core::array<irr::scene::IMeshBuffer *,irr::core::irrAllocator<irr::scene::IMeshBuffer *> >::{ctor}",
+                  "decoratedName": "??0?$array@PEAVIMeshBuffer@scene@irr@@V?$irrAllocator@PEAVIMeshBuffer@scene@irr@@@core@3@@core@irr@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'data'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/irrArray.h"
+                },
+                "region": {
+                  "startLine": 288,
+                  "startColumn": 4,
+                  "endLine": 288,
+                  "endColumn": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::core::array<irr::scene::SMD3QuaternionTag,irr::core::irrAllocator<irr::scene::SMD3QuaternionTag> >::=",
+                  "decoratedName": "??4?$array@USMD3QuaternionTag@scene@irr@@V?$irrAllocator@USMD3QuaternionTag@scene@irr@@@core@3@@core@irr@@QEAAAEBV012@AEBV012@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/irrlicht-1.8.5/include/irrArray.h"
+                          },
+                          "region": {
+                            "startLine": 269,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/irrlicht-1.8.5/include/irrArray.h"
+                          },
+                          "region": {
+                            "startLine": 271,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/irrlicht-1.8.5/include/irrArray.h"
+                          },
+                          "region": {
+                            "startLine": 273,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/irrlicht-1.8.5/include/irrArray.h"
+                          },
+                          "region": {
+                            "startLine": 277,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/irrlicht-1.8.5/include/irrArray.h"
+                          },
+                          "region": {
+                            "startLine": 278,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'data' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/irrlicht-1.8.5/include/irrArray.h"
+                          },
+                          "region": {
+                            "startLine": 282,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/irrlicht-1.8.5/include/irrArray.h"
+                          },
+                          "region": {
+                            "startLine": 283,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/irrlicht-1.8.5/include/irrArray.h"
+                          },
+                          "region": {
+                            "startLine": 284,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/irrlicht-1.8.5/include/irrArray.h"
+                          },
+                          "region": {
+                            "startLine": 285,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/irrlicht-1.8.5/include/irrArray.h"
+                          },
+                          "region": {
+                            "startLine": 287,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/irrlicht-1.8.5/include/irrArray.h"
+                          },
+                          "region": {
+                            "startLine": 287,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<other.used')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/irrlicht-1.8.5/include/irrArray.h"
+                          },
+                          "region": {
+                            "startLine": 288,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "'data' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/vector3d.h"
+                },
+                "region": {
+                  "startLine": 170,
+                  "startColumn": 17,
+                  "endLine": 170,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::core::vector3d<float>::normalize",
+                  "decoratedName": "?normalize@?$vector3d@M@core@irr@@QEAAAEAV123@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/vector3d.h"
+                },
+                "region": {
+                  "startLine": 170,
+                  "startColumn": 17,
+                  "endLine": 170,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::core::vector3d<float>::normalize",
+                  "decoratedName": "?normalize@?$vector3d@M@core@irr@@QEAAAEAV123@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/vector3d.h"
+                },
+                "region": {
+                  "startLine": 170,
+                  "startColumn": 17,
+                  "endLine": 170,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::core::vector3d<float>::normalize",
+                  "decoratedName": "?normalize@?$vector3d@M@core@irr@@QEAAAEAV123@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/plane3d.h"
+                },
+                "region": {
+                  "startLine": 180,
+                  "startColumn": 20,
+                  "endLine": 180,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::core::plane3d<float>::getIntersectionWithPlane",
+                  "decoratedName": "?getIntersectionWithPlane@?$plane3d@M@core@irr@@QEBA_NAEBV123@AEAV?$vector3d@M@23@1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/plane3d.h"
+                },
+                "region": {
+                  "startLine": 180,
+                  "startColumn": 20,
+                  "endLine": 180,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::core::plane3d<float>::getIntersectionWithPlane",
+                  "decoratedName": "?getIntersectionWithPlane@?$plane3d@M@core@irr@@QEBA_NAEBV123@AEAV?$vector3d@M@23@1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/plane3d.h"
+                },
+                "region": {
+                  "startLine": 186,
+                  "startColumn": 21,
+                  "endLine": 186,
+                  "endColumn": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::core::plane3d<float>::getIntersectionWithPlane",
+                  "decoratedName": "?getIntersectionWithPlane@?$plane3d@M@core@irr@@QEBA_NAEBV123@AEAV?$vector3d@M@23@1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/plane3d.h"
+                },
+                "region": {
+                  "startLine": 186,
+                  "startColumn": 21,
+                  "endLine": 186,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::core::plane3d<float>::getIntersectionWithPlane",
+                  "decoratedName": "?getIntersectionWithPlane@?$plane3d@M@core@irr@@QEBA_NAEBV123@AEAV?$vector3d@M@23@1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/plane3d.h"
+                },
+                "region": {
+                  "startLine": 187,
+                  "startColumn": 21,
+                  "endLine": 187,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::core::plane3d<float>::getIntersectionWithPlane",
+                  "decoratedName": "?getIntersectionWithPlane@?$plane3d@M@core@irr@@QEBA_NAEBV123@AEAV?$vector3d@M@23@1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/plane3d.h"
+                },
+                "region": {
+                  "startLine": 187,
+                  "startColumn": 21,
+                  "endLine": 187,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::core::plane3d<float>::getIntersectionWithPlane",
+                  "decoratedName": "?getIntersectionWithPlane@?$plane3d@M@core@irr@@QEBA_NAEBV123@AEAV?$vector3d@M@23@1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'irr::core::CMatrix4<float>::M' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/matrix4.h"
+                },
+                "region": {
+                  "startLine": 440,
+                  "startColumn": 22,
+                  "endLine": 440,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::core::CMatrix4<float>::{ctor}",
+                  "decoratedName": "??0?$CMatrix4@M@core@irr@@QEAA@AEBV012@W4eConstructor@012@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "irr::core::CMatrix4<float>::M"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'irr::core::CMatrix4<float>::eConstructor' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/matrix4.h"
+                },
+                "region": {
+                  "startLine": 440,
+                  "startColumn": 22,
+                  "endLine": 440,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::core::CMatrix4<float>::{ctor}",
+                  "decoratedName": "??0?$CMatrix4@M@core@irr@@QEAA@AEBV012@W4eConstructor@012@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'irr::core::CMatrix4<float>::M' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/irrlicht-1.8.5/include/matrix4.h"
+                },
+                "region": {
+                  "startLine": 417,
+                  "startColumn": 22,
+                  "endLine": 417,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "irr::core::CMatrix4<float>::{ctor}",
+                  "decoratedName": "??0?$CMatrix4@M@core@irr@@QEAA@W4eConstructor@012@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "irr::core::CMatrix4<float>::M"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.30.30706.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "D:\\VisualStudio\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\c1xx.dll -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF7343D0C80 -il C:\\Users\\joel2001\\AppData\\Local\\Temp\\_CL_64ebf4caast -typedil -f main.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1930 -D_MSC_FULL_VER=193030706 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -I D:\\irrlicht-1.8.5\\include -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -std:c++17 -permissive- -Fox64\\Debug\\main.obj -Fdx64\\Debug\\vc143.pdb -external:W 3 -Gd -analyze:projectdirectory D:\\irrlicht-projects\\edge\\Edge\\Edge -analyze:rulesetdirectory ;D:\\VisualStudio\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset D:\\VisualStudio\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin D:\\VisualStudio\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I D:\\VisualStudio\\VC\\Tools\\MSVC\\14.30.30705\\include -I D:\\VisualStudio\\VC\\Tools\\MSVC\\14.30.30705\\atlmfc\\include -I D:\\VisualStudio\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I D:\\VisualStudio\\VC\\Tools\\MSVC\\14.30.30705\\include -I D:\\VisualStudio\\VC\\Tools\\MSVC\\14.30.30705\\include -external:I D:\\VisualStudio\\VC\\Tools\\MSVC\\14.30.30705\\atlmfc\\include -I D:\\VisualStudio\\VC\\Tools\\MSVC\\14.30.30705\\atlmfc\\include -external:I D:\\VisualStudio\\VC\\Auxiliary\\VS\\include -I D:\\VisualStudio\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/vector3d.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "124dc2f2a5bd50c34944b11c0905e2bb1923a8ab974c0b524114272a24fcb364"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/SColor.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "64d3ed1b3cb95cf15cae3a61162ccd5a71f7d11c63827fe905e2b333d764fc94"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/irrString.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "fd946b6e2694385d617697969c44dc03d514cbb2d57d79410e3056d76120b1b0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/SMaterial.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "5aa3b4330815bf2b7dd7176fc160633728580106a5dfca2fb715707ca1218878"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/S3DVertex.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "2a8f4817dffc2b06474e20a13eb4eab7c527cf57bb89989c9e1d64a702c168ed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/IDynamicMeshBuffer.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "36afa557513d44b2885029fc3a4236cd416c5ba800b27caf6a5d29a51f06dea9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/IAnimatedMesh.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "2ce61658f7ed974f5e8c3cd748a97b332b5204600375002ea62acb7b84cf11cf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/IFileArchive.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "4f21019ec149e8024ca58837e5c8502fb6a4ffb17d0d965108357a8325de67d8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/ITexture.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "87a6f124d1954a501cac0e65e3ccd74ea258669314818679fd39a8136236e368"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/IVideoDriver.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "56a329728b34e1aac85e7d651491613387f6a89fa6d02fc0674b5817a2d01252"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/IQ3Shader.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "3288d80dc535c8e337f26cb26550cfc4b46eda210376421b47595f4e3df33e2f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/quaternion.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "dea908bcce37cb250ccaa02297b8245399175be69fc8e2feae0306bced777099"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/ISceneNodeAnimator.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "b92e2d5133bd2e4b1f0d415fa5c41ca8f22de3868ccc1ffe517fd83d18497ac3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/ISceneNode.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "d849b868760723ab02c3e83ca0ec2fd10dcbf493c0ddc1983b4389a5dccd1f4a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/ICursorControl.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "437b7d2eab663be2bd0397380b9b3189989adc93be0b0a71919d04fbf2839a26"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/IGPUProgrammingServices.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "5bdd7758fb053e7a40d9bc4ada22d839c10ac317141622cf0753ccade46cfe9f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/IGUIElement.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "23b2025ab70a8eccd510e400e755bafb389466e0d6b1789e12db4d0730054cb9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/IGUISkin.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "513bd7999235176bee53a6961bf4189ffbabadb9bf53e025bf87cc73a4223caf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/IGUIFont.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "f0da384439f98c47c72afeb704be051530bf4bd6706d136137bf93d15c8220bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/SLight.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "f5e8ed1a00cd26ad8f2b63ae4a7677ecc43a3c523c976463427fe4efbfa9d8d5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/IColladaMeshWriter.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "7fdaa6c04951dc5e0fb4abc1978938a4232b117b17ab89e46d6a32fa8362db76"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/IParticleEmitter.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "ad008de2c740081083ce4d0da3f4018930963905fce51fd08d3ae3b88b3483ae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/IParticleAttractionAffector.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "545cb937c3b18faec741c38e55866c0f2aa9eff1a762cd3ff6a1fa87ed71c848"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/IrrlichtDevice.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "36595a9789d85d6e640983ac9346d4478fdd2330554582f9cb95290af83d05c6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/SIrrCreationParameters.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "9f85ba9e2ad1a1d540da02767c0730353591d6057f7fe8396fd4feaf7a7cc3bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/SKeyMap.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "3dc626a91fd41f9d0e32b6636c9242907540ba8beff1eafd397a008e54c0094d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/SSharedMeshBuffer.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "5887edc184c64fd100712b4f249fcbe82b1e1b418172c22c08a02c208f71ec8c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/SViewFrustum.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "243db1561bf9976ffe1c143791e35a456bee5dc17f16929d27f567e00d0d55f8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-projects/edge/Edge/Edge/main.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "af2913e15ae6978680d92cf913d885eb8ab16be0c5a481445b4b7d82b4851411"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/irrArray.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "ca6fca8d422498301e12ea12d619469efc4f4e04a3191fc6057e668146d4bacb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/plane3d.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "6d7097ca07204c1e995cad74f975c4112d06c4aa2b3b10f75495cab42ab58559"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/irrlicht-1.8.5/include/matrix4.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "8f3005e306e1955757702697301eae771bea1f46dcef125b910bad8fb2838ecc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/irrlicht.h"
+          },
+          "hashes": {
+            "sha-256": "4d857a62a0f46e54991667cd2f6402558b18df9bec3b0dbcb5d90c2226ade4ae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/irrcompileconfig.h"
+          },
+          "hashes": {
+            "sha-256": "b197686f4b3b3d65b8b42bdd57f562eff5ff57f15de7864f745ad1c089389991"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/aabbox3d.h"
+          },
+          "hashes": {
+            "sha-256": "250f9ae6dfbc101fdd08bf30e35d3bad926c8e8f1c527e4d4381c64f96610230"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/irrmath.h"
+          },
+          "hashes": {
+            "sha-256": "69de1ef8ec098444ab36be85ce11a262dbd536b47fa9ee1b8905c6684bd53e01"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/irrtypes.h"
+          },
+          "hashes": {
+            "sha-256": "8e95b2697f0692b00eb45c30db61957ddbc6fc3844e02de1e86ec5b59eec5fc7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/line3d.h"
+          },
+          "hashes": {
+            "sha-256": "f128bd26d6558b4d70e2a4abccacc7958f0c6a1e6430fff0ce68b9c3d96b8a18"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/cdynamicmeshbuffer.h"
+          },
+          "hashes": {
+            "sha-256": "e489a849fedb4e9b53dc5797c6c3597b1ffb241ae0cfa26ee3d27fc6dc256cd7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/imeshbuffer.h"
+          },
+          "hashes": {
+            "sha-256": "5f5508c9c47397613e37f6b9363b3413e0ea8e2a0863f29378174752da3229d4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/ireferencecounted.h"
+          },
+          "hashes": {
+            "sha-256": "0e1dc3968271c23b1fb783968cdf142f028d4974f8e28916f7c091bddaa3dc28"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/vector2d.h"
+          },
+          "hashes": {
+            "sha-256": "d1d9c67f9477a6ac3eddf6539bd301bc2688c404263c7b13fc8467c6cc0eb091"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/dimension2d.h"
+          },
+          "hashes": {
+            "sha-256": "ecf53bffff9d1bab24ab2e88e942c35644cac3ac86f896e4fa5cb8856c448cd0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/rect.h"
+          },
+          "hashes": {
+            "sha-256": "d7f411a20ab3a0fd6b40e3d7c7795a5e834a2bc3ec111b0a1cf30e277d9df986"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/position2d.h"
+          },
+          "hashes": {
+            "sha-256": "701dfbb1b3b0c477c64a67468ec33128013438be7af833226e31c1107a2976ae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/irrallocator.h"
+          },
+          "hashes": {
+            "sha-256": "7cb8488ea0269b3648ceb259bc043382bd6e7f7cf03ab6b699a68c305b6feafe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/heapsort.h"
+          },
+          "hashes": {
+            "sha-256": "e377417c10c6079fd23fa9560ecac73b17869bc99cbd0578faf360940d65086c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/ematerialtypes.h"
+          },
+          "hashes": {
+            "sha-256": "e04ad90e55385c81f37ac4c6e3797316570ea7c2c16f64b62157150677324983"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/ematerialflags.h"
+          },
+          "hashes": {
+            "sha-256": "d8d262fa84a0e50028e17d433d11e1f7008daaee78af70351d3f72eb0f70f26a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/smateriallayer.h"
+          },
+          "hashes": {
+            "sha-256": "e0a4d015d341565254ea85d5d6be07f8f1896fb6eb8b646cc3b90729bb1bf034"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/svertexindex.h"
+          },
+          "hashes": {
+            "sha-256": "a1c05d8bf869ea961ed9fd930280ebce6aec485066e43f6f0a0942d56bbb03fc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/ehardwarebufferflags.h"
+          },
+          "hashes": {
+            "sha-256": "93c936f5208927b7f83705239a7a911dae05bcc87f4e1b71949fad9de6510a1d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/eprimitivetypes.h"
+          },
+          "hashes": {
+            "sha-256": "6b4b8114ba1fd84525ece161173c7a59313fac928d55971d4d4c15a32592ac36"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/ivertexbuffer.h"
+          },
+          "hashes": {
+            "sha-256": "f13314a73589a65d4b408cce1700ccf3e10f64d3037f08df5590b6dcbba436b6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iindexbuffer.h"
+          },
+          "hashes": {
+            "sha-256": "5d032ac3af9315c9fdd2b5d37e7783c993f6c9b791040d92b27ee277afa9e89d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/cvertexbuffer.h"
+          },
+          "hashes": {
+            "sha-256": "0e8c9d276f466a872d60e45524676c7ce2f979255e886837b1b6eb306f893802"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/cindexbuffer.h"
+          },
+          "hashes": {
+            "sha-256": "dfa3366fdb803398062a7e3c1d4a0a0a524838f838c2773e9bf5b5fb6b064384"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/cmeshbuffer.h"
+          },
+          "hashes": {
+            "sha-256": "a2f2080c28ffa5ee28fcb7a9555f5db4a161e4046098d6011ebfeee589297948"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/coreutil.h"
+          },
+          "hashes": {
+            "sha-256": "922dff1474e3de57339a6600775d4a5d579f78de5f1806efb6bc16066b5db720"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/path.h"
+          },
+          "hashes": {
+            "sha-256": "61d3e306589befba6105692b08f4ef1474df567e8d17b746606317deff795f16"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/ecullingtypes.h"
+          },
+          "hashes": {
+            "sha-256": "615462ccb783fc7cf3a805244fcfcc294a724d5ef3217cef206dccdd575e4b92"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/edebugscenetypes.h"
+          },
+          "hashes": {
+            "sha-256": "40269126da8328c576b1cced55bbbe7e1952263984b19abb36cb68b2e16c0e4f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/edriverfeatures.h"
+          },
+          "hashes": {
+            "sha-256": "d10542a89c469f826e7d3d75f9f996859955caf52cf02afe368d589203836967"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/edrivertypes.h"
+          },
+          "hashes": {
+            "sha-256": "4c52a364255fb00a5435a285ae384331e5ef5ee3d0d32dd02b25aa7ca94f30ab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/eguialignment.h"
+          },
+          "hashes": {
+            "sha-256": "c22a033d5fe5a3e5df65e478c65678ca248ba75ccb2673db1d5fd85a62b59f3e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/eguielementtypes.h"
+          },
+          "hashes": {
+            "sha-256": "3a7faa1b15e7fdecc4d6fc504907daf337c6fa636a2ec9ac3f74b8f4771029ca"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/emeshwriterenums.h"
+          },
+          "hashes": {
+            "sha-256": "73d9b3807b193a7df431b3c6569b23e8abcf474cd8f9793158fe532619781d90"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/emessageboxflags.h"
+          },
+          "hashes": {
+            "sha-256": "1d0b5c72533b82126f4b68162a9daa0b3a3fe32544b0da4cb05ef21266932953"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/escenenodeanimatortypes.h"
+          },
+          "hashes": {
+            "sha-256": "c3867fe439832c9cf689edb44b05c7d945525a7fdfa268fb95531f09b546685d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/escenenodetypes.h"
+          },
+          "hashes": {
+            "sha-256": "8ff82797e3d420bd81ff7510ae84cf7f05c86fce4d1fd2b6f45d2ff2ea08bd05"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/eterrainelements.h"
+          },
+          "hashes": {
+            "sha-256": "f458706a990a83578ed1c098c3330a522c6aa63a8f4cc60952ebeea17d69f851"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/fast_atof.h"
+          },
+          "hashes": {
+            "sha-256": "40dfa554fb335f2a6b28018ed9bd894a9caab29400eb38faa9c6dca8a36e252a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/imesh.h"
+          },
+          "hashes": {
+            "sha-256": "9940acc9f5b3ea8409ae92b9be620372dd414b97ce717cde39a11f55d3dc18a7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/ianimatedmeshmd2.h"
+          },
+          "hashes": {
+            "sha-256": "fe8043d2a9a2dd8d3dabdf1a8a2cca493540c2a9a9c237d2d79e94711a02bd02"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/ianimatedmeshmd3.h"
+          },
+          "hashes": {
+            "sha-256": "c3ebce6114ddec218f6d402123f38c09c1d046499972410941be836cf549ddae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/ifilesystem.h"
+          },
+          "hashes": {
+            "sha-256": "cea0aea36094ee94ae9098a4ef900fb8d456cb30a6cc81cdaf24b8b1c5450ea3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/ixmlreader.h"
+          },
+          "hashes": {
+            "sha-256": "e0f98bb7dd09e391bc9df19727fb60aecee44d7387d955203a7a971eca972591"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/irrxml.h"
+          },
+          "hashes": {
+            "sha-256": "d81cfd67a19eab5dfbd0aa78fb65d8eb165c4477fea03132adea450c9ff6dbd6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/ireadfile.h"
+          },
+          "hashes": {
+            "sha-256": "6f6e6d2e990169d1c247f881154cf033735a8930e3a4edd5e85d4206a97f4ccf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/ifilelist.h"
+          },
+          "hashes": {
+            "sha-256": "4c57e903a35b3944567c2eec63a875c1d0af1d31544e1919348f2250afe20704"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iimage.h"
+          },
+          "hashes": {
+            "sha-256": "7b833543b1d91166da08f444ed2db9d64f9637c492a2b28afaac8da518d666c3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/triangle3d.h"
+          },
+          "hashes": {
+            "sha-256": "9a0fb58d0af4daca492cc4cdc80f84fb9404bebe4b7da5c729f7b7260b7c0ff8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/sexposedvideodata.h"
+          },
+          "hashes": {
+            "sha-256": "4045467b8a4663e333d4d98072f5c29cc5626997c9af99c7ceca2f75c2c95d69"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/irrpack.h"
+          },
+          "hashes": {
+            "sha-256": "8d19508de4010fedaedc28a32b898411789d9bed4c2bfc3e7b71728d006c4170"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/irrunpack.h"
+          },
+          "hashes": {
+            "sha-256": "1de5621adc25584c951bfed6a8667b3466c54344b58cfe2be82deb0cf005d429"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/ianimatedmeshscenenode.h"
+          },
+          "hashes": {
+            "sha-256": "848f26acb8b85caf224c157022a3d3831b9219032bf72d0970f0ace31dd368dc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iattributeexchangingobject.h"
+          },
+          "hashes": {
+            "sha-256": "51b727671a4d11240a93048fd74d03fb66490f5c656e8e48c835a12224eb5823"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/ieventreceiver.h"
+          },
+          "hashes": {
+            "sha-256": "da3326d3443455bc446b6f013705e459b91ff8423808554df87921d04a4c9274"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/ilogger.h"
+          },
+          "hashes": {
+            "sha-256": "014a2f1551c71d49df62235c4625eae53914b129be895f84e5304fef1ebfe70f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/keycodes.h"
+          },
+          "hashes": {
+            "sha-256": "4103a870651ad79de3a4c91a121fe1d32f52cb0d85c97c902784ca3b2c76aee1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/itriangleselector.h"
+          },
+          "hashes": {
+            "sha-256": "daa316315f68211ce6b67586ffe1097ef519a3259321e44e8f294d7eb9bdb505"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/irrlist.h"
+          },
+          "hashes": {
+            "sha-256": "bfbf578aeecf2eb1114551d5b9f46461a21733df62d54ab65b11e37d436e06ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iattributes.h"
+          },
+          "hashes": {
+            "sha-256": "493f188d9808701b7c6e27a9757fadbd1a39fc050084f74d0d2644da1a3b9107"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/line2d.h"
+          },
+          "hashes": {
+            "sha-256": "873b7d9d1ad9a467a83184e16f4b124cddd5c6376d5b198275029b9f4a7f0d38"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/eattributes.h"
+          },
+          "hashes": {
+            "sha-256": "0e4f92eb41e32d3e385d843abccfed42dbcf475cb52317a3e4d695d95692333a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/ibonescenenode.h"
+          },
+          "hashes": {
+            "sha-256": "52b361da5de31e87900c1257293a93e61d84bb2fc5c91f418c87c99e376d3a01"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/ibillboardscenenode.h"
+          },
+          "hashes": {
+            "sha-256": "9c6146118de2067ede93baaab58bab6fbd100ecece99ad49ff7137ff13058d2c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/ibillboardtextscenenode.h"
+          },
+          "hashes": {
+            "sha-256": "95e837f5e7de21860d6ad1abe849fef18738113bf4642d3fc4d51d3ba729898e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/icamerascenenode.h"
+          },
+          "hashes": {
+            "sha-256": "d6955eca1dfa5ae518ee09a273c51f7ffb8d2b0528d91ceab5fb25c1cfd8dc9a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/idummytransformationscenenode.h"
+          },
+          "hashes": {
+            "sha-256": "248abfa4ff6f945de0b18c6c1fb16f6de0c2864657b8b27768c162daef4401c4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/igeometrycreator.h"
+          },
+          "hashes": {
+            "sha-256": "2bbb3135e4ed3b22ec54a819b8db20ba349834f104973f0e32aebafb139bda71"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/eshadertypes.h"
+          },
+          "hashes": {
+            "sha-256": "45af4dc370134d4dd8d2dc2a96de5601eb298eaa34f719455422cd4da295b8a3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iguibutton.h"
+          },
+          "hashes": {
+            "sha-256": "0c3462993f6ffd4b6cdc1a3b6eb8a87b25328621ef88e39d9a47914519746c4b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iguicheckbox.h"
+          },
+          "hashes": {
+            "sha-256": "29a4f2e30f1313804ebad0a35914ac8e6cf443a6683c76720fbe1c8bb39a93d4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iguicolorselectdialog.h"
+          },
+          "hashes": {
+            "sha-256": "e86e3416fadedbd66d191506317990d0891e05ffeff9bb42ddb34d10d5da2b62"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iguicombobox.h"
+          },
+          "hashes": {
+            "sha-256": "640ee4f136d1c3a78f2ff2215c758131e9760efe6e7c537bd75a9ee73d58abdb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iguicontextmenu.h"
+          },
+          "hashes": {
+            "sha-256": "8c83a794aacf386c65ad0a028d915f726d42dfa542736afd9bce3d69d3869ebd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iguieditbox.h"
+          },
+          "hashes": {
+            "sha-256": "225219ae9b486edf4840bebf0863691e296a48d7a23989ccff49d116c1d6e711"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iguielementfactory.h"
+          },
+          "hashes": {
+            "sha-256": "573320e60eeb07d9ae130aeb7f428e4ced5bd9cc9fc20093991ee0a466ad8256"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iguienvironment.h"
+          },
+          "hashes": {
+            "sha-256": "21be7f5c227aa9fd85d7582d80bfd3aa4ecfa1cbacdeb17eaba1c4d93b6782de"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iguifileopendialog.h"
+          },
+          "hashes": {
+            "sha-256": "d8de8bd9ae12986c60c6c1a25b45484511e87e981f66542e58ce0ceb41ba3b33"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iguifontbitmap.h"
+          },
+          "hashes": {
+            "sha-256": "43c21889fa599ad8d9e52e3df9cbd3dbd3cf285ad7b40096fbec7e7f3f5d35e4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iguiimage.h"
+          },
+          "hashes": {
+            "sha-256": "7f427ca47b4aab0673a91c88bbdae41c7486a16761e89578c3178f9423fac8dd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iguiinoutfader.h"
+          },
+          "hashes": {
+            "sha-256": "f8917cd924262855361b4afe39ce2e4b7d4cc4e5c7a321908e713f9f24f0419d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iguilistbox.h"
+          },
+          "hashes": {
+            "sha-256": "73ca019d4492537a751581624138d95aa1380961ea6de0440c1e7c9e34869e83"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iguimeshviewer.h"
+          },
+          "hashes": {
+            "sha-256": "72f43a0a53561cfa15c138c15574467fbfbdf167cf346de4c0ea68ea26839a4d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iguiscrollbar.h"
+          },
+          "hashes": {
+            "sha-256": "7c8475a8c937c3d4313f17e32e5d22800ea28da089f016e9a6320209c5863869"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iguispinbox.h"
+          },
+          "hashes": {
+            "sha-256": "21eb34667fcabd1e3d610f8adc6091ff872ce5e7dca0b284a96709385edb8115"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iguispritebank.h"
+          },
+          "hashes": {
+            "sha-256": "542c020a4e9aeb0601d92ddfe450836381452fcec9c9c25d8cc5c085531628ea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iguistatictext.h"
+          },
+          "hashes": {
+            "sha-256": "351990011fecebcba29bfed5f97cbdd397f47b613095721fd46d804c51d5af26"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iguitabcontrol.h"
+          },
+          "hashes": {
+            "sha-256": "6aa4915fe7c9dcc8870cef22da825b1cb924e464a947d56ded7f641e9d8f0479"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iguitable.h"
+          },
+          "hashes": {
+            "sha-256": "628903b5c48d0179b53db8c306ff4ee8e2fa19bd8da8a90d44adf1f567faa948"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iguitoolbar.h"
+          },
+          "hashes": {
+            "sha-256": "d7c2129c2d3e620e2b14908c0821b891d19901f4194072b0a13713759dbf09fb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iguiwindow.h"
+          },
+          "hashes": {
+            "sha-256": "113d2f6147a34fcf709635b4bfa8fe1cf690edea729494bb6f249596d91df763"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iguitreeview.h"
+          },
+          "hashes": {
+            "sha-256": "06131bd2f786d791b75c1cd9a6081c4e45b84ee41cd316a4b0cd7cc2fe188492"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iguiimagelist.h"
+          },
+          "hashes": {
+            "sha-256": "a430c01529bb1931a9c7ed759472c2147a95a22cc46e1a62b5d0b4dfbb6d7767"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iimageloader.h"
+          },
+          "hashes": {
+            "sha-256": "d6d8e52fb9b864eb64d7086813202739076ce11f3144ab0eb47c1f3d933dc035"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iimagewriter.h"
+          },
+          "hashes": {
+            "sha-256": "51dfadbba6471610518ce0d706a10ffdebef4ccbeb378da0f6ca1df22568d86d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/ilightscenenode.h"
+          },
+          "hashes": {
+            "sha-256": "8587d3c49f31d393b7244eee8a0f45f0b9e352d61cbcad59f9111525341622be"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/imaterialrenderer.h"
+          },
+          "hashes": {
+            "sha-256": "17436c9212feb0a163cb7593629b4d0233d820c6ffae71570d4ad7f8ea60d9d4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/imaterialrendererservices.h"
+          },
+          "hashes": {
+            "sha-256": "9594f5c5999206b8320e5ce49258094a3d3264938e34a74e951edf77f3819f72"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/imeshcache.h"
+          },
+          "hashes": {
+            "sha-256": "09520d1b382613f6d3e3a83cc604dad5adf967836a239caa4a8e93b91f8e3b34"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/imeshloader.h"
+          },
+          "hashes": {
+            "sha-256": "bd78f289beb19a311c13a1671fad86af207e3e2e0ff5ed49d816baa6b980e3aa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/imeshmanipulator.h"
+          },
+          "hashes": {
+            "sha-256": "eb327425ff7a378e3f5006cc8aed122e5f609aa7748c9a8b757ad3dc0a281272"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/svertexmanipulator.h"
+          },
+          "hashes": {
+            "sha-256": "0e573520696e8f64d2f1c6d900e0531d3ad153df6ce4b2098e08974f741d70bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/imeshscenenode.h"
+          },
+          "hashes": {
+            "sha-256": "b9a84ed139a7eb5e5e8860e6ebb14af6ae8271be51065969a7ae985db675d505"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/imeshwriter.h"
+          },
+          "hashes": {
+            "sha-256": "6110c1b19a3772498c6aefe74e2aec6475eddd92afa35ed7c71f7c530c3a2bec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/imetatriangleselector.h"
+          },
+          "hashes": {
+            "sha-256": "1cca750a2589864036924f3b5b9a47f049827bacd91c157ff37bdfdd6f625874"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iosoperator.h"
+          },
+          "hashes": {
+            "sha-256": "4b0c027cd55107f2dfaa340ac80bbc687cbb998597519614506dc223cd7edb87"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iparticlesystemscenenode.h"
+          },
+          "hashes": {
+            "sha-256": "d6b3aede5e7cb10321bfa333773127151caa50c1fdd373ef52bc6f16947c7c9b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iparticleanimatedmeshscenenodeemitter.h"
+          },
+          "hashes": {
+            "sha-256": "edff50966992b9777e74d8874eee73454f9192ffb1d67ac5dfefdb3be0d5b340"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/sparticle.h"
+          },
+          "hashes": {
+            "sha-256": "df98ad5ca9209b4f5df8a4d2733a9e2135afb5e0f8f05e041af4beddd024fb37"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iparticleboxemitter.h"
+          },
+          "hashes": {
+            "sha-256": "efe6434d7511d7381a2b80bf465e0622f8ff924ba2604476727522393c4f0369"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iparticlecylinderemitter.h"
+          },
+          "hashes": {
+            "sha-256": "1e0ba7594275a726b36245a75b3abf776fe9319eaf8f7fabbf70c30813c2b14f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iparticlemeshemitter.h"
+          },
+          "hashes": {
+            "sha-256": "48ce65c6ce250d5a44ec89c812f61a54625f4f106af3471bf16ec89ede9d758a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iparticleringemitter.h"
+          },
+          "hashes": {
+            "sha-256": "a808a848acc85d506107295e59c717ea46599b0fb05a50f51e765b09135abfc4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iparticlesphereemitter.h"
+          },
+          "hashes": {
+            "sha-256": "b39ae2b8dc2bd56ee3bad5adc0d7912c21fb45bd9f86809c88992807506ae098"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iparticleaffector.h"
+          },
+          "hashes": {
+            "sha-256": "350d2344b00e9d9182d95b1c1782695e36eac38b4aa56ce132614701aeec40e9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iparticlefadeoutaffector.h"
+          },
+          "hashes": {
+            "sha-256": "7b86542dc185551f1ffe5f9bf4c602d35aae25bfaa748ad1a6d0a97f9ea5d458"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iparticlegravityaffector.h"
+          },
+          "hashes": {
+            "sha-256": "507a79e1b9a6e731c0cf22bb2f9e284fdc9129ec7a750348e634523c8faa922e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iparticlerotationaffector.h"
+          },
+          "hashes": {
+            "sha-256": "d9f8955810cbb51879fd69db6cb1d4f73550b0dd093d3fce0866613744065c35"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iq3levelmesh.h"
+          },
+          "hashes": {
+            "sha-256": "c9b8294ba3f73a0fc164400a113c6c4e7ebfbb9dbde545f01a46cf3fed86393d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/irandomizer.h"
+          },
+          "hashes": {
+            "sha-256": "08d3818e785b27d32f43ca86549901b0d966008199dbc5238052cc675a7a7dd9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/edevicetypes.h"
+          },
+          "hashes": {
+            "sha-256": "e7e65cb7c385e7153c9405aee0176f2ba0f16bd6f4b95d30e755c5693dbe0084"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/ivideomodelist.h"
+          },
+          "hashes": {
+            "sha-256": "80c29156ad55aa296bacde09eba5fec5e542c7edd8f4d014b7dde061db84af3f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/itimer.h"
+          },
+          "hashes": {
+            "sha-256": "011c6b0678ffdf446377f785f38f5cef45546e18dadb688d205c8c9cc06422db"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/irrmap.h"
+          },
+          "hashes": {
+            "sha-256": "ef2dc3c14df23775b8fa7b19eed6c727030483c09022fe436b707b8cb6674f93"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iscenecollisionmanager.h"
+          },
+          "hashes": {
+            "sha-256": "9ab920114ef92bd884579b9f01e8f120a0175bea7d82536cd180246c64235e83"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/isceneloader.h"
+          },
+          "hashes": {
+            "sha-256": "0123a92ca36b44b1da61ec9b373b2f3d97376a08f45f4bc3570c892293581cc3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iscenemanager.h"
+          },
+          "hashes": {
+            "sha-256": "4812d7045f1b850fa4f8e2cac50353e2aedda5df4cddd71e6b00741510b0da9e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/sceneparameters.h"
+          },
+          "hashes": {
+            "sha-256": "3e9fe798440d7e14c6b26e1a7d84cc5b0eabb8f3873e90eafa8bdc950deb92da"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iskinnedmesh.h"
+          },
+          "hashes": {
+            "sha-256": "c7bc6c30d796506465f147e72bf1bc02d07e4d3b5a22a7ef4d3c88e4eb320f81"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/sskinmeshbuffer.h"
+          },
+          "hashes": {
+            "sha-256": "3f57b617cf290a45d7d9e96eed3a8c2dd1ffd3d2fe840dd3c88d74380b67c1a1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iscenenodeanimatorcamerafps.h"
+          },
+          "hashes": {
+            "sha-256": "7f43dc0784f743e17f25f6b7beb92abfefb0a95e9d7f6c3fb95ade558d61d91a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iscenenodeanimatorcameramaya.h"
+          },
+          "hashes": {
+            "sha-256": "61a3ebbadb8480bc13cd3f0cf55de76248f86bd5dc44aefda1ab984d5f006267"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iscenenodeanimatorcollisionresponse.h"
+          },
+          "hashes": {
+            "sha-256": "b75b610e4b0bb1393c9249c6d315c281b332c77222f1508787aef1fd56febd75"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iscenenodeanimatorfactory.h"
+          },
+          "hashes": {
+            "sha-256": "1e1436c6be1144cfc85c99b4e557acf30fe835b4d50bef4a8ff12be899e20655"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iscenenodefactory.h"
+          },
+          "hashes": {
+            "sha-256": "3d8e1781cf5c92d6e78416f795c2602a39c83576552976d14caa21edb1e1fa87"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/isceneuserdataserializer.h"
+          },
+          "hashes": {
+            "sha-256": "f08b201e7589c9d4782293ce832e0c71351cf6f3973b07af87558b022426b241"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/ishaderconstantsetcallback.h"
+          },
+          "hashes": {
+            "sha-256": "c8a5484e40fb7058a801188a3988d4f055ac6e2c3507517b3cdeea66aee4ce2d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/ishadowvolumescenenode.h"
+          },
+          "hashes": {
+            "sha-256": "23292f4a3a9a018203764b75a621123120da54de56c62ae0d4fecd36547d0807"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iterrainscenenode.h"
+          },
+          "hashes": {
+            "sha-256": "36d39bd7749c390c2f291f5c1b9c3d960b98ed0f68d121a9742768f060c204f7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/itextscenenode.h"
+          },
+          "hashes": {
+            "sha-256": "ae2586e22f91213d254cbd79faee7ee0585d3195221ab28f8084c894ee939e6f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/ivolumelightscenenode.h"
+          },
+          "hashes": {
+            "sha-256": "96157528ac5193056f22b132bea0c6d85739273ae30cdfdbbed483239120ac59"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/iwritefile.h"
+          },
+          "hashes": {
+            "sha-256": "d13773b02678e5ffe46b4b13d24cf9813786b9e543e4766ec7628bf5d9cd443d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/ixmlwriter.h"
+          },
+          "hashes": {
+            "sha-256": "8158380692cd72e3b357748357ccaf1104e7b8fea80da93e36f960e81c04b913"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/ilightmanager.h"
+          },
+          "hashes": {
+            "sha-256": "849cdd217b3144c0cc55f151614b65f91f6de7454eae60c461ea4c17e6313a9b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/sanimatedmesh.h"
+          },
+          "hashes": {
+            "sha-256": "20238a78c311749de2c3c75e2fca8653218fd760e9421c3eab3eb7d717f2c161"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/smesh.h"
+          },
+          "hashes": {
+            "sha-256": "5315db9e3e182f9ca08fbc7fcdbf7e644d0e26b4efcaf2de88f15a0eefd7184b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/smeshbuffer.h"
+          },
+          "hashes": {
+            "sha-256": "9dd66606a1116615492fa6f80b53ec27e1a6ccc160243a864ecb4899fb2aad0a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/smeshbufferlightmap.h"
+          },
+          "hashes": {
+            "sha-256": "9dd66606a1116615492fa6f80b53ec27e1a6ccc160243a864ecb4899fb2aad0a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/smeshbuffertangents.h"
+          },
+          "hashes": {
+            "sha-256": "9dd66606a1116615492fa6f80b53ec27e1a6ccc160243a864ecb4899fb2aad0a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-projects/edge/edge/edge/timer.h"
+          },
+          "hashes": {
+            "sha-256": "fe640ce355d6822e1d136b8bfb2e4a6bcdc00737445b5ebe00289bc52fd23af4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-projects/edge/edge/edge/controls.h"
+          },
+          "hashes": {
+            "sha-256": "bec792b01cc6f68e1a8bf2dce81359c7eb74818a5d925618adbb9307efcd1b73"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-1.8.5/include/driverchoice.h"
+          },
+          "hashes": {
+            "sha-256": "726909988355e9b995b11583628b13980bbb3c1583322f27f514d439e7257f90"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-projects/edge/edge/edge/lvl_loader.h"
+          },
+          "hashes": {
+            "sha-256": "9880b70bd6cdd551e3eaf9726512ac15b29243d81843e3c84338e3456e4ce6fc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/irrlicht-projects/edge/edge/edge/utils.h"
+          },
+          "hashes": {
+            "sha-256": "9f11c83476807a0285a6c95c57a98601d7621276a6e97aec4513a325260f7c58"
+          }
+        }
+      ]
+    }
+  ]
+}

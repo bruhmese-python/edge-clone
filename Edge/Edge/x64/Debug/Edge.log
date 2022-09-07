@@ -1,0 +1,47 @@
+﻿  lvl_loader.cpp
+D:\irrlicht-projects\edge\Edge\Edge\lvl_loader.cpp(5,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\irrlicht-projects\edge\Edge\Edge\lvl_loader.cpp(22,26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\irrlicht-projects\edge\Edge\Edge\lvl_loader.cpp(60,28): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  main.cpp
+D:\VisualStudio\VC\Tools\MSVC\14.30.30705\include\xstring(2588,23): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+D:\VisualStudio\VC\Tools\MSVC\14.30.30705\include\xstring(2599): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+D:\VisualStudio\VC\Tools\MSVC\14.30.30705\include\xstring(2599): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+D:\VisualStudio\VC\Tools\MSVC\14.30.30705\include\xstring(2579): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+D:\VisualStudio\VC\Tools\MSVC\14.30.30705\include\xstring(2579): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+D:\irrlicht-projects\edge\Edge\Edge\main.cpp(151): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+D:\irrlicht-projects\edge\Edge\Edge\main.cpp(151): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  Generating Code...
+  LINK : D:\irrlicht-projects\edge\Edge\x64\Debug\Edge.exe not found or not built by the last incremental link; performing full link
+  Edge.vcxproj -> D:\irrlicht-projects\edge\Edge\x64\Debug\Edge.exe
